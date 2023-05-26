@@ -1,0 +1,94 @@
+﻿  Precificacao.cpp
+C:\Quantum\Precificacao\Precificacao.cpp(74,54): error C2665: 'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle': nenhuma função sobrecarregada pode converter todos os tipos de argumento
+C:\Program Files\QuantLib\ql\handle.hpp(99,1): message : poderia ser 'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle(QuantLib::Handle<QuantLib::YieldTermStructure> &&)'
+C:\Quantum\Precificacao\Precificacao.cpp(74,54): message : 'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle(QuantLib::Handle<QuantLib::YieldTermStructure> &&)': não é possível converter um argumento 1 de 'std::shared_ptr<QuantLib::FlatForward>' em 'QuantLib::Handle<QuantLib::YieldTermStructure> &&'
+C:\Quantum\Precificacao\Precificacao.cpp(75,46): message : Razão: não é possível converter de 'std::shared_ptr<QuantLib::FlatForward>' para 'QuantLib::Handle<QuantLib::YieldTermStructure>'
+C:\Quantum\Precificacao\Precificacao.cpp(75,46): message : Nenhum operador de conversão definida pelo usuário disponível que possa realizar esta conversão, ou o operador não pode ser chamado
+C:\Program Files\QuantLib\ql\handle.hpp(99,1): message : ou       'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle(const QuantLib::Handle<QuantLib::YieldTermStructure> &)'
+C:\Quantum\Precificacao\Precificacao.cpp(74,54): message : 'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle(const QuantLib::Handle<QuantLib::YieldTermStructure> &)': não é possível converter um argumento 1 de 'std::shared_ptr<QuantLib::FlatForward>' em 'const QuantLib::Handle<QuantLib::YieldTermStructure> &'
+C:\Quantum\Precificacao\Precificacao.cpp(75,46): message : Razão: não é possível converter de 'std::shared_ptr<QuantLib::FlatForward>' para 'const QuantLib::Handle<QuantLib::YieldTermStructure>'
+C:\Quantum\Precificacao\Precificacao.cpp(75,46): message : Nenhum operador de conversão definida pelo usuário disponível que possa realizar esta conversão, ou o operador não pode ser chamado
+C:\Program Files\QuantLib\ql\handle.hpp(78,9): message : ou       'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle(const boost::shared_ptr<T> &,bool)'
+          with
+          [
+              T=QuantLib::YieldTermStructure
+          ]
+C:\Quantum\Precificacao\Precificacao.cpp(74,54): message : 'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle(const boost::shared_ptr<T> &,bool)': não é possível converter um argumento 1 de 'std::shared_ptr<QuantLib::FlatForward>' em 'const boost::shared_ptr<T> &'
+          with
+          [
+              T=QuantLib::YieldTermStructure
+          ]
+C:\Quantum\Precificacao\Precificacao.cpp(75,46): message : Razão: não é possível converter de 'std::shared_ptr<QuantLib::FlatForward>' para 'const boost::shared_ptr<T>'
+          with
+          [
+              T=QuantLib::YieldTermStructure
+          ]
+C:\Quantum\Precificacao\Precificacao.cpp(75,46): message : Nenhum operador de conversão definida pelo usuário disponível que possa realizar esta conversão, ou o operador não pode ser chamado
+C:\Quantum\Precificacao\Precificacao.cpp(74,54): message : ao tentar corresponder a lista de argumentos '(std::shared_ptr<QuantLib::FlatForward>)'
+C:\Quantum\Precificacao\Precificacao.cpp(78,59): error C2665: 'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle': nenhuma função sobrecarregada pode converter todos os tipos de argumento
+C:\Program Files\QuantLib\ql\handle.hpp(99,1): message : poderia ser 'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle(QuantLib::Handle<QuantLib::YieldTermStructure> &&)'
+C:\Quantum\Precificacao\Precificacao.cpp(78,59): message : 'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle(QuantLib::Handle<QuantLib::YieldTermStructure> &&)': não é possível converter um argumento 1 de 'std::shared_ptr<QuantLib::FlatForward>' em 'QuantLib::Handle<QuantLib::YieldTermStructure> &&'
+C:\Quantum\Precificacao\Precificacao.cpp(79,46): message : Razão: não é possível converter de 'std::shared_ptr<QuantLib::FlatForward>' para 'QuantLib::Handle<QuantLib::YieldTermStructure>'
+C:\Quantum\Precificacao\Precificacao.cpp(79,46): message : Nenhum operador de conversão definida pelo usuário disponível que possa realizar esta conversão, ou o operador não pode ser chamado
+C:\Program Files\QuantLib\ql\handle.hpp(99,1): message : ou       'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle(const QuantLib::Handle<QuantLib::YieldTermStructure> &)'
+C:\Quantum\Precificacao\Precificacao.cpp(78,59): message : 'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle(const QuantLib::Handle<QuantLib::YieldTermStructure> &)': não é possível converter um argumento 1 de 'std::shared_ptr<QuantLib::FlatForward>' em 'const QuantLib::Handle<QuantLib::YieldTermStructure> &'
+C:\Quantum\Precificacao\Precificacao.cpp(79,46): message : Razão: não é possível converter de 'std::shared_ptr<QuantLib::FlatForward>' para 'const QuantLib::Handle<QuantLib::YieldTermStructure>'
+C:\Quantum\Precificacao\Precificacao.cpp(79,46): message : Nenhum operador de conversão definida pelo usuário disponível que possa realizar esta conversão, ou o operador não pode ser chamado
+C:\Program Files\QuantLib\ql\handle.hpp(78,9): message : ou       'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle(const boost::shared_ptr<T> &,bool)'
+          with
+          [
+              T=QuantLib::YieldTermStructure
+          ]
+C:\Quantum\Precificacao\Precificacao.cpp(78,59): message : 'QuantLib::Handle<QuantLib::YieldTermStructure>::Handle(const boost::shared_ptr<T> &,bool)': não é possível converter um argumento 1 de 'std::shared_ptr<QuantLib::FlatForward>' em 'const boost::shared_ptr<T> &'
+          with
+          [
+              T=QuantLib::YieldTermStructure
+          ]
+C:\Quantum\Precificacao\Precificacao.cpp(79,46): message : Razão: não é possível converter de 'std::shared_ptr<QuantLib::FlatForward>' para 'const boost::shared_ptr<T>'
+          with
+          [
+              T=QuantLib::YieldTermStructure
+          ]
+C:\Quantum\Precificacao\Precificacao.cpp(79,46): message : Nenhum operador de conversão definida pelo usuário disponível que possa realizar esta conversão, ou o operador não pode ser chamado
+C:\Quantum\Precificacao\Precificacao.cpp(78,59): message : ao tentar corresponder a lista de argumentos '(std::shared_ptr<QuantLib::FlatForward>)'
+C:\Quantum\Precificacao\Precificacao.cpp(82,60): error C2665: 'QuantLib::Handle<QuantLib::BlackVolTermStructure>::Handle': nenhuma função sobrecarregada pode converter todos os tipos de argumento
+C:\Program Files\QuantLib\ql\handle.hpp(99,1): message : poderia ser 'QuantLib::Handle<QuantLib::BlackVolTermStructure>::Handle(QuantLib::Handle<QuantLib::BlackVolTermStructure> &&)'
+C:\Quantum\Precificacao\Precificacao.cpp(82,60): message : 'QuantLib::Handle<QuantLib::BlackVolTermStructure>::Handle(QuantLib::Handle<QuantLib::BlackVolTermStructure> &&)': não é possível converter um argumento 1 de 'std::shared_ptr<QuantLib::BlackConstantVol>' em 'QuantLib::Handle<QuantLib::BlackVolTermStructure> &&'
+C:\Quantum\Precificacao\Precificacao.cpp(83,51): message : Razão: não é possível converter de 'std::shared_ptr<QuantLib::BlackConstantVol>' para 'QuantLib::Handle<QuantLib::BlackVolTermStructure>'
+C:\Quantum\Precificacao\Precificacao.cpp(83,51): message : Nenhum operador de conversão definida pelo usuário disponível que possa realizar esta conversão, ou o operador não pode ser chamado
+C:\Program Files\QuantLib\ql\handle.hpp(99,1): message : ou       'QuantLib::Handle<QuantLib::BlackVolTermStructure>::Handle(const QuantLib::Handle<QuantLib::BlackVolTermStructure> &)'
+C:\Quantum\Precificacao\Precificacao.cpp(82,60): message : 'QuantLib::Handle<QuantLib::BlackVolTermStructure>::Handle(const QuantLib::Handle<QuantLib::BlackVolTermStructure> &)': não é possível converter um argumento 1 de 'std::shared_ptr<QuantLib::BlackConstantVol>' em 'const QuantLib::Handle<QuantLib::BlackVolTermStructure> &'
+C:\Quantum\Precificacao\Precificacao.cpp(83,51): message : Razão: não é possível converter de 'std::shared_ptr<QuantLib::BlackConstantVol>' para 'const QuantLib::Handle<QuantLib::BlackVolTermStructure>'
+C:\Quantum\Precificacao\Precificacao.cpp(83,51): message : Nenhum operador de conversão definida pelo usuário disponível que possa realizar esta conversão, ou o operador não pode ser chamado
+C:\Program Files\QuantLib\ql\handle.hpp(78,9): message : ou       'QuantLib::Handle<QuantLib::BlackVolTermStructure>::Handle(const boost::shared_ptr<T> &,bool)'
+          with
+          [
+              T=QuantLib::BlackVolTermStructure
+          ]
+C:\Quantum\Precificacao\Precificacao.cpp(82,60): message : 'QuantLib::Handle<QuantLib::BlackVolTermStructure>::Handle(const boost::shared_ptr<T> &,bool)': não é possível converter um argumento 1 de 'std::shared_ptr<QuantLib::BlackConstantVol>' em 'const boost::shared_ptr<T> &'
+          with
+          [
+              T=QuantLib::BlackVolTermStructure
+          ]
+C:\Quantum\Precificacao\Precificacao.cpp(83,51): message : Razão: não é possível converter de 'std::shared_ptr<QuantLib::BlackConstantVol>' para 'const boost::shared_ptr<T>'
+          with
+          [
+              T=QuantLib::BlackVolTermStructure
+          ]
+C:\Quantum\Precificacao\Precificacao.cpp(83,51): message : Nenhum operador de conversão definida pelo usuário disponível que possa realizar esta conversão, ou o operador não pode ser chamado
+C:\Quantum\Precificacao\Precificacao.cpp(82,60): message : ao tentar corresponder a lista de argumentos '(std::shared_ptr<QuantLib::BlackConstantVol>)'
+C:\Quantum\Precificacao\Precificacao.cpp(86,34): error C2440: '<function-style-cast>': não é possível converter de 'std::shared_ptr<QuantLib::SimpleQuote>' para 'QuantLib::Handle<QuantLib::Quote>'
+C:\Quantum\Precificacao\Precificacao.cpp(86,34): message : Nenhum construtor pôde receber o tipo de origem, ou resolução de sobrecarga de construtor foi ambígua
+C:\Quantum\Precificacao\Precificacao.cpp(85,22): error C2672: 'std::make_shared': nenhuma função sobrecarregada correspondente encontrada
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(2764,5): message : poderia ser 'std::shared_ptr<_Ty> std::make_shared(_Types &&...)'
+C:\Quantum\Precificacao\Precificacao.cpp(92,32): error C2665: 'QuantLib::VanillaOption::VanillaOption': nenhuma função sobrecarregada pode converter todos os tipos de argumento
+C:\Program Files\QuantLib\ql\instruments\vanillaoption.hpp(40,9): message : poderia ser 'QuantLib::VanillaOption::VanillaOption(const boost::shared_ptr<QuantLib::StrikedTypePayoff> &,const boost::shared_ptr<QuantLib::Exercise> &)'
+C:\Quantum\Precificacao\Precificacao.cpp(92,32): message : 'QuantLib::VanillaOption::VanillaOption(const boost::shared_ptr<QuantLib::StrikedTypePayoff> &,const boost::shared_ptr<QuantLib::Exercise> &)': não é possível converter um argumento 1 de 'std::shared_ptr<QuantLib::PlainVanillaPayoff>' em 'const boost::shared_ptr<QuantLib::StrikedTypePayoff> &'
+C:\Quantum\Precificacao\Precificacao.cpp(92,33): message : Razão: não é possível converter de 'std::shared_ptr<QuantLib::PlainVanillaPayoff>' para 'const boost::shared_ptr<QuantLib::StrikedTypePayoff>'
+C:\Quantum\Precificacao\Precificacao.cpp(92,33): message : Nenhum operador de conversão definida pelo usuário disponível que possa realizar esta conversão, ou o operador não pode ser chamado
+C:\Quantum\Precificacao\Precificacao.cpp(92,32): message : ao tentar corresponder a lista de argumentos '(std::shared_ptr<QuantLib::PlainVanillaPayoff>, std::shared_ptr<QuantLib::Exercise>)'
+C:\Quantum\Precificacao\Precificacao.cpp(93,18): error C2664: 'void QuantLib::Instrument::setPricingEngine(const boost::shared_ptr<QuantLib::PricingEngine> &)': não é possível converter um argumento 1 de 'std::shared_ptr<QuantLib::AnalyticEuropeanEngine>' em 'const boost::shared_ptr<QuantLib::PricingEngine> &'
+C:\Quantum\Precificacao\Precificacao.cpp(93,76): message : Razão: não é possível converter de 'std::shared_ptr<QuantLib::AnalyticEuropeanEngine>' para 'const boost::shared_ptr<QuantLib::PricingEngine>'
+C:\Quantum\Precificacao\Precificacao.cpp(93,76): message : Nenhum operador de conversão definida pelo usuário disponível que possa realizar esta conversão, ou o operador não pode ser chamado
+C:\Program Files\QuantLib\ql\instrument.hpp(131,29): message : consulte a declaração de 'QuantLib::Instrument::setPricingEngine'
+C:\Quantum\Precificacao\Precificacao.cpp(93,18): message : ao tentar corresponder a lista de argumentos '(std::shared_ptr<QuantLib::AnalyticEuropeanEngine>)'
